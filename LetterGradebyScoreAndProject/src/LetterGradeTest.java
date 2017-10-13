@@ -43,7 +43,7 @@ public class LetterGradeTest {
 	@Test
 	public void testInvalidInput() {
 //		assertEquals(lgrade.letterGrade('a', 101),'X');	
-		assertEquals(lgrade.letterGrade(101,'a'),'X');	
+		assertEquals(lgrade.letterGrade(101,101),'X');	
 	}
 	
 	@Test 
